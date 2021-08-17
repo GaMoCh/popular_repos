@@ -1,0 +1,17 @@
+project_name: popular_repos
+
+archives:
+  - format_overrides:
+      - goos: windows
+        format: zip
+
+builds:
+  - id: lab01s01
+    main: ./cmd/lab01s01
+    binary: bin/lab01s01
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows

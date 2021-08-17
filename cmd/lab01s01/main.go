@@ -40,5 +40,6 @@ func main() {
 		logs.Error.Fatal(err)
 	}
 
+	graphqlJSON = append(graphqlJSON, '\n')
 	os.Stdout.Write(graphqlJSON)
 }

@@ -30,7 +30,7 @@ We based on project layout [golang-standards/project-layout](https://github.com/
 
 ## Features
 
-- [Lab01S01](https://github.com/gamoch/popular_repos/releases/tag/v0.1.0): GraphQL query for 100 repositories + automatic request
+- [Lab01S01](https://github.com/gamoch/popular_repos/releases/tag/v0.1.1): GraphQL query for 100 repositories + automatic request
 
 - Lab01S02: Pagination (query for 1000 repositories) + data in `.csv` file
 

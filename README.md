@@ -1,18 +1,18 @@
 <div align="center">
-  <h2>Popular Repos</h2>
+  <h1>Popular Repos</h1>
 </div>
 
 <div align="center">
   <a href="#about">About</a>
-   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#techs">Techs</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#techs">Architecture</a>
+  <a href="#architecture">Architecture</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-    <a href="#features">Features</a>
+  <a href="#features">Features</a>
   &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#run">Run</a>
-&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#license">License</a>
 </div>
 
@@ -30,7 +30,7 @@ We based on project layout [golang-standards/project-layout](https://github.com/
 
 ## Features
 
-- [Lab01S01](https://github.com/gamoch/popular_repos/releases/tag/v0.1.1): GraphQL query for 100 repositories + automatic request
+- Lab01S01: GraphQL query for 100 repositories + automatic request
 
 - Lab01S02: Pagination (query for 1000 repositories) + data in `.csv` file
 

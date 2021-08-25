@@ -38,6 +38,7 @@ func NewRequest(query string, options ...RequestOption) *Request {
 func WithHTTPHeader(httpHeader http.Header) RequestOption {
 	return func(request *Request) {
 		for key, values := range httpHeader {
+			request.Header.Del(key)
 			for _, value := range values {
 				request.Header.Add(key, value)
 			}

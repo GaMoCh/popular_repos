@@ -29,7 +29,7 @@ func NewClient(token string, options ...graphql.ClientOption) *client {
 
 func (c *client) Run(ctx context.Context, req *graphql.Request, res interface{}) error {
 	if req != nil {
-		req.Header.Add("Authorization", "bearer "+c.token)
+		req.Header.Set("Authorization", "bearer "+c.token)
 	}
 
 	err := c.client.Run(ctx, req, res)

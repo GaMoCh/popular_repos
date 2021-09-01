@@ -25,3 +25,13 @@ builds:
       - linux
       - darwin
       - windows
+
+  - id: lab01s03
+    main: ./cmd/lab01s03
+    binary: bin/lab01s03
+    env:
+      - CGO_ENABLED=0
+    goos:
+      - linux
+      - darwin
+      - windows
